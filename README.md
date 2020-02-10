@@ -35,8 +35,12 @@ We have recently signed a supplier of conjured items. This requires an update to
 
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
 
+
+## Important
+We have not tell you everything you will have to use your best practices to work with this code, an make it much simpler.
+
 How to execute the tests
 ========================
-    npm install
+    npm install && npm audit fix --force
     npm test
 
